@@ -1,0 +1,66 @@
+body {
+  background-color: silver;
+}
+#logo {
+  display: inline;
+  max-width: 80px;
+  max-height: 80px;
+  border: 3px solid goldenrod;
+}
+.shopName {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.shopName:hover,
+.shopName:visited {
+  text-decoration: none;
+  padding-right: 3px;
+}
+.option {
+  display: inline-block;
+  text-align: center;
+}
+.option .button {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+.option .button:hover,
+.option .button:active {
+  background-color: white;
+}
+.registers {
+  margin-top: 0px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 20px;
+  max-width: 100%;
+}
+.registers a:visited {
+  color: black;
+  text-decoration: none;
+}
+footer {
+  text-align: left;
+  border-top: 3px solid black;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+footer p {
+  padding-left: 20px;
+  display: inline-block;
+}
+.box-searching {
+  max-width: 100%;
+}
