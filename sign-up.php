@@ -39,7 +39,7 @@ session_start();
           <input type="password" class="dntt box" placeholder="Enter Password" name="password" id="password" />
           <p class="compulsory">*</p><br>
           Email:<br>
-          <input type="text" class="dntt box" placeholder="Enter Email" name="email" id="email" />
+          <input type="email" class="dntt box" placeholder="Enter Email" name="email" id="email" />
           <p class="compulsory">*</p><br><br><br>
           <div class="form-group text-center text-danger">
           </div>
