@@ -62,7 +62,7 @@
               </div>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="form-inline my-2 my-lg-0" action="Operate/HandleForSearching.php" method="post">
             <input class="form-control mr-sm-2 box-searching" type="search" placeholder="Search" />
             <button class="btn btn-outline-success my-2 my-sm-0 box-searching" type="submit" onclick="searching()">
               <i class="fa fa-search"></i>
