@@ -1,4 +1,3 @@
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
@@ -62,8 +61,8 @@
               </div>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0" action="Operate/HandleForSearching.php" method="post">
-            <input class="form-control mr-sm-2 box-searching" type="search" placeholder="Search" />
+          <form class="form-inline my-2 my-lg-0" action="database/search.php" method="post">
+            <input class="form-control mr-sm-2 box-searching" type="search" placeholder="Search" name="Search" />
             <button class="btn btn-outline-success my-2 my-sm-0 box-searching" type="submit" onclick="searching()">
               <i class="fa fa-search"></i>
             </button>
